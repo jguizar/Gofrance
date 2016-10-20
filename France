@@ -1,0 +1,33 @@
+speed 1000
+pen black,2 
+slide 100,0 
+slide 0,50
+slide -100, 0
+slide 0,-50
+pen white, .01
+rt 90
+fd 20
+lt 90
+fd 13
+box blue, 35
+fd 25
+box blue, 35
+fd 10
+rt 90 
+fd 35
+rt 90 
+fd 10
+box white, 35
+fd 25
+box white, 35
+fd 10
+lt 90 
+fd 35
+lt 90
+fd 10
+box red, 35
+fd 25
+box red,35
+
+jumpto 0,-50
+label 'GO France!'
